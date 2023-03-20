@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Aula 20-03-2023</title>
+    </head>
+    <body>
+
+        <!-- Comentários de aula
+            
+            Var = altera somente dentro do bloco mas não fora
+            Let = altera fora do bloco e dentro do bloco! 
+            Const = constante e não muda o valor 
+            Array [] = várias informações dentro de uma única instrução 
+
+            Para conversão 
+            let numFloat = 123.54
+            parseInt(numFloat) só traz o que está antes do ponto 
+
+            let numString = "123.54"
+            parseFloat(numString)
+
+            conversão para String
+            let numTeste = 12
+            console.log(numTeste.toString())
+        
+        Finaliza os comentários -->
+
+        <script>
+
+            let numFloat = 123.54
+            console.log(parseInt(numFloat))
+
+            let numString = "123.54"
+            console.log(parseFloat(numString))
+
+            let numTeste = 12
+            console.log(numTeste.toString())
+
+            let numero = 123.542
+            let numConverte = numero.toString()
+            let verificar = typeof numConverte //Verifica qual o tipo de número
+            console.log(verificar) 
+
+            //conta quantidade de espaços utilizados
+                // let pedido = "Quero um suco de laranja"
+                // alert(pedido.length)
+
+            //retorna primeira posição de um texto
+            let texto = "As provas estão chegando"
+            console.log(texto.indexOf("ão"))
+
+            //retorna a última posição
+            let texto2 = "As provas estão chegando"
+            console.log(texto2.lastIndexOf("an"))
+
+            //code . no prompt de comando abre o vs code 
+
+            //Para mostrar na tela
+            document.write("Olá mundo!")
+
+        </script>
+
+    </body>
+</html>
